@@ -1,24 +1,33 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+markdown:            redcarpet
+highlighter:         pygments
 
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
 # Setup
-title:            Lanyon
-tagline:          'A Jekyll theme'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lanyon.getpoole.com
+title:               Dave Poon
+tagline:             ' / Design is the message'
+description:         '<a href="https://twitter.com/davepoon" target="_blank">@davepoon</a> is a designer working and living in Sydney. Originally from Hong Kong. He design user interfaces, write codes, manage design teams and manage products. Co-Founder of  <a href="http://spikenode.com" target="_blank">http://spikenode.com</a>.'
+url:                 http://blog.davepoon.net/
+baseurl:             http://davepoon.github.io/lanyon/
+paginate:            5
 
+# About/contact
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
+  name:              Dave Poon
+  url:               https://twitter.com/davepoon
+  email:             davepoon@davepoon.net
 
 # Custom vars
-version:          1.0.0
+version:             1.0.0
 
-github:
-  repo:           https://github.com/poole/lanyon
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:         public/_scss
+  style:            :compressed

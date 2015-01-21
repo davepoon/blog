@@ -1,0 +1,75 @@
+---
+---
+@import "poole";
+@import "syntax";
+@import "lanyon";
+
+html {
+  font-family: "jaf-bernino-sans", 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "jaf-bernino-sans", 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+
+.masthead-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  a {
+    text-decoration: none;
+    border: none;
+  }
+  small {
+    font-weight: 300;
+  }
+}
+.sidebar-item p {
+  font-weight: 300;
+}
+
+.sidebar-toggle {
+ top: 0.6rem;
+}
+.content a {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  border-bottom: 1px solid #BEBEBE;
+  -webkit-transition-property: border-color;
+  -webkit-transition-duration: .1s;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-delay: 0;
+  -moz-transition-property: border-color;
+  -moz-transition-duration: .1s;
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-delay: 0;
+  -ms-transition-property: border-color;
+  -ms-transition-duration: .1s;
+  -ms-transition-timing-function: ease-out;
+  -ms-transition-delay: 0;
+  -o-transition-property: border-color;
+  -o-transition-duration: .1s;
+  -o-transition-timing-function: ease-out;
+  -o-transition-delay: 0;
+  transition-property: border-color;
+  transition-duration: .1s;
+  transition-timing-function: ease-out;
+  -transition-delay: 0;
+
+  &:hover, &:focus {
+    color: rgba(0, 0, 0, 1);
+    border-color: #222;
+    border-width: 2px;
+  }
+}
+
+.content  .post-title a {
+  text-decoration: none;
+  border: none;
+  transition: .2s color;
+  &:hover, &:focus {
+    color: rgba(0, 0, 0, .7);
+  }
+}
