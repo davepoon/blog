@@ -10,7 +10,7 @@ relative_permalinks: true
 
 # Setup
 title:               Dave Poon
-tagline:             ' / Design is <i>my</i> message'
+tagline:             ' / Design is the message'
 description:         '<a href="https://twitter.com/davepoon" target="_blank">@davepoon</a> is a designer working and living in Sydney. Originally from Hong Kong. He design user interfaces, write codes, manage design teams and manage products. Co-Founder of  <a href="http://spikenode.com" target="_blank">http://spikenode.com</a>.'
 url:                 http://blog.davepoon.net/
 baseurl:             http://davepoon.github.io/lanyon/
@@ -29,5 +29,5 @@ version:             1.0.0
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          public/_scss
+  sass_dir:         public/_scss
   style:            :compressed
