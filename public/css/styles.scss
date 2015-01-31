@@ -4,16 +4,112 @@
 @import "syntax";
 @import "lanyon";
 
+$primary-font-family: "jaf-bernino-sans", 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+
 html {
-  font-family: "jaf-bernino-sans", 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-family: $primary-font-family;
   font-weight: 300;
+  -webkit-transition: .3s all;
+  transition: .3s all;
 }
-
+body {
+  height: 100%;
+  overflow-x: auto;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "jaf-bernino-sans", 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-family: $primary-font-family;
   font-weight: bold;
+  line-height: 1.5;
+}
+pre {
+  font-size: 0.7rem;
+}
+.chat, .feed {
+  margin: 7rem 0 1rem 0;
+}
+.content-header {
+  background: #3a3a3a;
+  height: auto;
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #222;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    -webkit-animation: fadeOut 1s ease-in-out;
+    animation: fadeOut 1s ease-in-out;
+    z-index: 1;
+  }
+}
+@media (min-width: 38em) {
+  .content-header {
+    max-width: 100%;
+
+  }
 }
 
+.masthead {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+@media (max-width: 48em) {
+  .masthead-title {
+    text-align: left;
+  }
+  .masthead-title small {
+    display: inline-block;
+  }
+}
+@media (min-width: 56em) {
+  .container {
+    max-width: 81rem;
+  }
+  .container.content {
+    margin-left: 43%;
+    width: 52%;
+  }
+  .masthead {
+    position: fixed;
+    z-index: 2;
+    width: 40%;
+  }
+  .content-header {
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+
+    img {
+      display: block;
+      margin: 0 -40% 1rem;
+      height: 100%;
+      width: auto;
+      max-width: none;
+    }
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background: #222;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.4;
+      -webkit-animation: fadeOut 1s ease-in-out;
+      animation: fadeOut 1s ease-in-out;
+    }
+  }
+}
 
 .masthead-title {
   font-size: 0.8rem;
@@ -21,9 +117,11 @@ h1, h2, h3, h4, h5, h6 {
   a {
     text-decoration: none;
     border: none;
+    color: white;
   }
   small {
     font-weight: 300;
+    color: white;
   }
 }
 .sidebar-item p {
@@ -32,8 +130,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar-toggle {
  top: 0.6rem;
+ z-index: 3;
 }
-.content a {
+.content a, .related-posts li a {
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
   border-bottom: 1px solid #BEBEBE;
@@ -65,11 +164,216 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.content  .post-title a {
-  text-decoration: none;
+.related-posts li a {
   border: none;
-  transition: .2s color;
+  font-weight: 300;
   &:hover, &:focus {
     color: rgba(0, 0, 0, .7);
   }
+}
+
+.post-title a {
+  text-decoration: none;
+  border: none;
+  transition: .2s color ease-out;
+  color: white;
+  font-size: 2.2rem;
+  &:hover, &:focus {
+    color: rgba(255, 255, 255, .7);
+  }
+}
+.post-date {
+  color: white;
+}
+.page, .post {
+  padding-top: 1rem;
+}
+
+@media (min-width: 38em) {
+  .page, .post {
+    padding-top: 2rem;
+  }
+}
+
+.abstract {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  padding: 0 1rem;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+}
+
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin: 2rem 0 4rem 0;
+  font-family: $primary-font-family;
+  color: #ccc;
+  text-align: center;
+  padding: 0;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  margin: 0 1rem;
+  display: inline-block;
+  border: none;
+  overflow: hidden;
+}
+.pagination-item.older {
+  float: left;
+  margin-left: 0;
+}
+.pagination-item.newer {
+  float: right;
+  margin-right: 0;
+}
+.pagination-item:first-child {
+  margin: 0;
+}
+
+/* Only provide a hover state for linked pagination items */
+a.pagination-item {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  color: #ccc;
+  display: inline-block;
+  &:hover {
+    background-color: transparent;
+    color: #222;
+    border: 1px solid #222;
+  }
+}
+
+@media (min-width: 30em) {
+
+  .pagination {
+    overflow: hidden; /* clearfix */
+    margin: 2rem 0;
+    font-family: $primary-font-family;
+    color: #ccc;
+    text-align: center;
+    padding: 0;
+  }
+
+  /* Pagination items can be `span`s or `a`s */
+  .pagination-item {
+    margin: 0 1rem;
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+    width: auto;
+  }
+  .pagination-item:first-child {
+    border-radius: 0;
+  }
+  .pagination-item:last-child {
+    border-radius: 0;
+  }
+  .pagination-item.older {
+    float: left;
+  }
+  .pagination-item.newer {
+    float: right;
+  }
+
+  /* Only provide a hover state for linked pagination items */
+  a.pagination-item {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    color: #ccc;
+    display: inline-block;
+    &:hover {
+      background-color: transparent;
+      color: #222;
+      border: 1px solid #222;
+    }
+  }
+}
+
+.abstract .pagination {
+  display: none;
+}
+
+@media (min-width: 56em) {
+  .page, .post {
+    padding-top: 7rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+  .abstract {
+    height: 100%;
+    top: 6rem;
+    padding: 0 2rem;
+  }
+
+  .container .pagination {
+    display: none;
+  }
+
+  .abstract .pagination {
+    display: block;
+    color: #ccc;
+    text-align: left;
+    position: absolute;
+    font-family: $primary-font-family;
+    font-weight: 300;
+    font-size: 0.9rem;
+    bottom: 180px;
+
+
+    .pagination-item {
+      float: left;
+      display: inline-block;
+      border: none;
+      color: rgba(255, 255, 255, 0.7);
+      padding: 0;
+      width: auto;
+      margin: 0 35px 0 0;
+    }
+    a.pagination-item {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    a.pagination-item:hover {
+      background-color: transparent;
+    }
+    .pagination-item:first-child {
+      margin-bottom: 0;
+    }
+    .pagination-item:last-child {
+      margin-left: -1px;
+    }
+    .pagination-item.older {
+      float: left;
+    }
+    .pagination-item.newer {
+      float: right;
+    }
+  }
+
+}
+
+
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: .4;}
+}
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: .4;}
 }

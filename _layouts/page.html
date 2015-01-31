@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+<header class="content-header">
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{{ page.image-lg }}" media="(min-width: 56em)">
+    <!--[if IE 9]></video><![endif]-->
+    <img srcset="{{ page.image-sm }}" alt="">
+  </picture>
+</header>
+
+<div class="container content">
+  <div class="page">
+    {{ content }}
+  </div>
 </div>
