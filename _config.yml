@@ -13,7 +13,7 @@ title:               Dave Poon
 tagline:             ' / Thoughts and Ramblings'
 description:         '<a href="https://twitter.com/davepoon" target="_blank">@davepoon</a> is a designer working and living in Sydney. Originally from Hong Kong. He design user interfaces, write codes, manage design teams and manage products. Co-Founder of  <a href="http://spikenode.com" target="_blank">http://spikenode.com</a>.'
 url:                 http://blog.davepoon.net/
-baseurl:             http://davepoon.github.io/blog/
+baseurl:
 paginate:            1
 
 # About/contact
