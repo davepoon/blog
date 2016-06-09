@@ -32,7 +32,8 @@ He joined [Suncorp](http://www.suncorp.com.au/ "Suncorp Group") in 2011, one of 
 At Suncorp, he worked on numerous projects for many brands including [AAMI](http://aami.com.au "AAMI insurance"), [GIO](http://gio.com.au "GIO insurance"), [Suncorp Group](http://suncorpgroup.com.au "Suncorp Group") and [Suncorp Bank](http://suncorpbank.com.au "Suncorp Bank").
 
 More recently, he co-founded [SpikeNode](http://spikenode.com "SpikeNode") with [@denot](https://twitter.com/denot), a "DevOps As A Service platform" for ease of DevOps automation.
-He also co-founded [getserve](http://getserve.com.au "getserve"), a platform for connecting individuals looking for handyman or home cleaning services with pre-screened and top-quality independent service professionals.
+He also founded [Erlango](http://erlango.com "Erlango"), A/B Testing Software Give Insight & Turn Visitors into Customers - Use Erlango to experiment, personalize & optimize your website with no coding required.
+I am also the person behind [UXCurator](http://uxcurator.com "UXCurator"), a website provide a list of the 4 best new stories for designers every day.
 
 
 <br />

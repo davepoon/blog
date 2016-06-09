@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Setting up Sass/SCSS with Jekyll
-image-lg: /assets/sass-lg.gif
-image-sm: /assets/sass-sm.gif
+title: Overview of JavaScript ECMAScript 6
+image-lg: /assets/es6-lg.png
+image-sm: /assets/es6-sm.png
 #category: development
-#tags: sass design scss jekyll
+#tags: javascript es6 front-end
 ---
 
 Jekyll has been supporting Sass and CoffeeScript out of the box since version 2. But I found there still are limited resources to talk about the Sass set up with Jekyll,
