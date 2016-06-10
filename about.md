@@ -1,15 +1,17 @@
 ---
 layout: page
 title: About
-image-lg: /assets/type-set-lg.jpg
-image-sm: /assets/type-set-sm.jpg
+"image-lg": "/assets/type-set-lg.jpg"
+"image-sm": "/assets/type-set-sm.jpg"
 category: about
 tags: about davepoon
+published: true
 ---
 
 
 
-### Hello, my name is Dave Poon. I am a designer working and living in Sydney. I design UIs and write codes. Co-founder of [SpikeNode](http://spikenode.com/ "SpikeNode") and co-founder of [getserve](http://getserve.com.au/ "GetServe").
+
+### Hello, my name is Dave Poon. I am a designer working and living in Sydney. I design UIs and write codes. Co-founder of [Erlango](http://erlango.com/ "Erlango") and Co-founder of [SpikeNode](http://spikenode.com/ "SpikeNode").
 
 <br />
 
@@ -32,9 +34,7 @@ He joined [Suncorp](http://www.suncorp.com.au/ "Suncorp Group") in 2011, one of 
 At Suncorp, he worked on numerous projects for many brands including [AAMI](http://aami.com.au "AAMI insurance"), [GIO](http://gio.com.au "GIO insurance"), [Suncorp Group](http://suncorpgroup.com.au "Suncorp Group") and [Suncorp Bank](http://suncorpbank.com.au "Suncorp Bank").
 
 More recently, he co-founded [SpikeNode](http://spikenode.com "SpikeNode") with [@denot](https://twitter.com/denot), a "DevOps As A Service platform" for ease of DevOps automation.
-He also founded [Erlango](http://erlango.com "Erlango"), A/B Testing Software Give Insight & Turn Visitors into Customers - Use Erlango to experiment, personalize & optimize your website with no coding required.
-I am also the person behind [UXCurator](http://uxcurator.com "UXCurator"), a website provide a list of the 4 best new stories for designers every day.
-
+He also founded [Erlango](http://erlango.com "erlango"), A/B Testing software give insight & turn visitors into customers. Erlango give you ability to run Split Testing, Multivariate Testing, Split URL testing and User Flow Testing on your website, mobile and webapp.
 
 <br />
 
@@ -53,4 +53,3 @@ This site is:
 - Fonts served by [Typekit](https://typekit.com "Typekit")
 
 If you have any questions, or you’d like me to advise on your project, welcome to ask me on [Twitter](https://twitter.com/davepoon "Dave Poon Twitter"), or feel free to [get in touch via email](mailto:davepoon@davepoon.net).
-
