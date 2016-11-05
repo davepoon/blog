@@ -3,13 +3,11 @@ layout: post
 title: Overview of JavaScript ECMAScript 6
 image-lg: /assets/es6-lg.png
 image-sm: /assets/es6-sm.png
-#category: development
-#tags: javascript es6 front-end
+published: true
 ---
 
-Jekyll has been supporting Sass and CoffeeScript out of the box since version 2. But I found there still are limited resources to talk about the Sass set up with Jekyll,
-and the [Jekyll documentation](http://jekyllrb.com/docs/assets/#sassscss) is a bit counter-intuitive for a first time Jekyll blogger.
-                                   .
+ES6 is a major update to the JavaScript language, it now looks and feels modern, and the updated features fix many problems with the earlier JavaScript versions. If you want to keep your JavaScript developing skills up to date, this course, Rapid ES6 Training, will help you to do that. You'll cover major new features including Iterators, Generators, symbols, and a built-in Promise library. You'll also learn about arrays collections. Finally, you'll discover the new meta-programming features with the Reflect API and Proxy API. By the end of this course, you will have a foundational knowledge of one of the latest web language features, ES6, and you'll be able to use it to write your code better.
+                                   
 <br />
 
 ## Table of contents
@@ -180,6 +178,3 @@ sass:
 ````
 
 It is simple, right? Thanks Jekyll teams for making designers and bloggers life much easier.
-
-
-
