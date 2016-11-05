@@ -6,7 +6,7 @@ image-sm: /assets/es6-sm.png
 published: true
 ---
 
-ES6 is a major update to the JavaScript language, it now looks and feels modern, and the updated features fix many problems with the earlier JavaScript versions. If you want to keep your JavaScript developing skills up to date, this course, Rapid ES6 Training, will help you to do that. You'll cover major new features including Iterators, Generators, symbols, and a built-in Promise library. You'll also learn about arrays collections. Finally, you'll discover the new meta-programming features with the Reflect API and Proxy API. By the end of this course, you will have a foundational knowledge of one of the latest web language features, ES6, and you'll be able to use it to write your code better.
+ECMAScript 6 or ES6 is a major update to the JavaScript language, it now looks and feels modern, and the updated features fix many problems with the earlier JavaScript versions. ES6 provides a lot of new features including Iterators, Generators, symbols, and a built-in Promise library.
                                    
 <br />
 
