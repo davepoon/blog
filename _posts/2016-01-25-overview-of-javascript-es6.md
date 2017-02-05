@@ -3,7 +3,7 @@ layout: post
 title: Overview of JavaScript ECMAScript 6
 image-lg: /assets/es6-lg.png
 image-sm: /assets/es6-sm.png
-published: true
+published: false
 ---
 
 ECMAScript 6 or ES6 is a major update to the JavaScript language, it now looks and feels modern, and the updated features fix many problems with the earlier JavaScript versions. ES6 provides a lot of new features including Iterators, Generators, symbols, and a built-in Promise library.
