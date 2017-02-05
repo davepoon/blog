@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 image-lg: /assets/docker-linode-lg.png
 image-sm: /assets/docker-linode-sm.png
