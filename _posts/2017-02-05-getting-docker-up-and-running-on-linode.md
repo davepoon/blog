@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+image-lg: /assets/docker-linode-lg.png
+image-sm: /assets/docker-linode-sm.png
 ---
 ## Getting Docker up and running on Linode with Ubuntun 16.04 LTS
 
