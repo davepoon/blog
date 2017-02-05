@@ -34,7 +34,7 @@ He joined [Suncorp](http://www.suncorp.com.au/ "Suncorp Group") in 2011, one of 
 At Suncorp, he worked on numerous projects for many brands including [AAMI](http://aami.com.au "AAMI insurance"), [GIO](http://gio.com.au "GIO insurance"), [Suncorp Group](http://suncorpgroup.com.au "Suncorp Group") and [Suncorp Bank](http://suncorpbank.com.au "Suncorp Bank").
 
 More recently, he co-founded [SpikeNode](http://spikenode.com "SpikeNode") with [@denot](https://twitter.com/denot), a "DevOps As A Service platform" for ease of DevOps automation.
-He also founded [Erlango](http://erlango.com "erlango"), A/B Testing software give insight & turn visitors into customers. Erlango give you ability to run Split Testing, Multivariate Testing, Split URL testing and User Flow Testing on your website, mobile and webapp.
+He also founded [Erlango](http://erlango.com "erlango"), a digital product design studio based in Sydney and Hong Kong.
 
 <br />
 

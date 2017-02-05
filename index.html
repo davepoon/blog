@@ -54,6 +54,34 @@ title: Dave Poon - Thoughts and ramblings
     {% endfor %}
   </div>
 
+  <div class="chat">
+    <h2>Chat with me?</h2>
+    <p>Feel free to contact me on <a href="https://twitter.com/davepoon" target="_blank">Twitter</a> if you have any questions about this post.</p>
+  </div>
+
+  <br />
+
+  <div class="related">
+    <h2>Recent Posts</h2>
+    <ul class="related-posts">
+      {% for post in site.posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="feed">
+    <p><a href="http://feeds.feedburner.com/davepoon" target="_blank">Subscribe to the RSS feed</a> to get notified of new posts.</p>
+  </div>
+
+
   <div class="pagination">
     {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}"><i class="fa fa-angle-left"></i> Older</a>
