@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-"image-lg": "/assets/type-set-lg.jpg"
-"image-sm": "/assets/type-set-sm.jpg"
+image-lg: /assets/type-set-lg.jpg
+image-sm: /assets/type-set-sm.jpg
 category: about
 tags: about davepoon
 published: true
@@ -11,7 +11,7 @@ published: true
 
 
 
-### Hello, my name is Dave Poon. I am a designer working and living in Sydney. I design UIs and write codes. Co-founder of [Erlango](http://erlango.com/ "Erlango") and Co-founder of [SpikeNode](http://spikenode.com/ "SpikeNode").
+### Hello, my name is Dave Poon. I am a designer working and living in Sydney. I design UIs and write codes. Co-founder of [Erlango](http://erlango.com/ "Erlango") and Co-founder of [GradHired](http://gradhired.com.au/ "GradHired").
 
 <br />
 
@@ -33,7 +33,7 @@ and [LESS Web Development Cookbook](https://www.packtpub.com/web-development/les
 He joined [Suncorp](http://www.suncorp.com.au/ "Suncorp Group") in 2011, one of the largest bank and insurance companies in Australia.
 At Suncorp, he worked on numerous projects for many brands including [AAMI](http://aami.com.au "AAMI insurance"), [GIO](http://gio.com.au "GIO insurance"), [Suncorp Group](http://suncorpgroup.com.au "Suncorp Group") and [Suncorp Bank](http://suncorpbank.com.au "Suncorp Bank").
 
-More recently, he co-founded [SpikeNode](http://spikenode.com "SpikeNode") with [@denot](https://twitter.com/denot), a "DevOps As A Service platform" for ease of DevOps automation.
+More recently, he co-founded [GradHired](http://gradhired.com.au "GradHired"), GradHired is the largest internship and entry-level jobs marketplace dedicated entirely to students, new grads and PhD students.
 He also founded [Erlango](http://erlango.com "erlango"), a digital product design studio based in Sydney and Hong Kong.
 
 <br />
